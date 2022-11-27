@@ -11,7 +11,9 @@ body{
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
     display: flex;
+    align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 img{
@@ -20,7 +22,8 @@ img{
 
 .Container{
     max-width: 280px;
-   background: #1a1b21;
+    background: #1a1b21;
+    border-radius: 10px;
 }
 
 .row{
@@ -29,6 +32,7 @@ img{
 
 .nav_bar{
     margin-bottom: 10px;
+    
 }
 .nav_bar img{
     /* min-height: 200px; */
@@ -40,7 +44,7 @@ img{
 .hero{
     text-align: center;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .hero h1{
@@ -63,22 +67,34 @@ img{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding-top: 9px;
-}
-
-.hero__btn i{
-    color: #000;
+    padding-top: 8px;
 }
 
 .hero__btn a{
     padding: 8px 18px;
-    background: #fff;
-    font-size: .9rem;
+    /* background: #fff; */
+    font-size: .8em;
     display: flex;
-    color: #000;
+    justify-content: center;
     align-items: center;
     gap: 5px;
     border-radius: 5px;
+}
+.web_mail{
+    background: #fff;
+    color: #000;
+}
+
+.web_mail i{
+    color: #000;
+}
+
+.web_link {
+    background: #5093e2;
+    color: #fff;
+}
+.web_link i{
+    color: #fff;
 }
 
 .main{
@@ -92,20 +108,26 @@ img{
 }
 
 .col h2{
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-bottom: 3px;
 }
 
 .col p {
-    font-size: .8rem;
+    font-size: .65rem;
 }
 
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     background: #000;
     padding: 1rem ;
     border-radius: 0 0 10px 10px;
+}
+
+.footer i{
+    padding: 4px 4px;
+    background: #918e9b;
+    color: #000;
 }
